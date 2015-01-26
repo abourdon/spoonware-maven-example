@@ -20,7 +20,7 @@
     </pluginRepositories>
 
     <properties>
-        <spoonware-version>0.0.11</spoonware-version>
+        <spoonware-version>0.0.13</spoonware-version>
         <src.dir>src/main/java</src.dir>
     </properties>
 
