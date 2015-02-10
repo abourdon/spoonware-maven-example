@@ -6,7 +6,7 @@ This application show how to configure a maven project to integrate Spoonware.  
 - Diagnostic all your bugs with the provided informations.
 - Fix your bugs at runtime, without recompiling and re-deploing your application.
 
-## usage
+## Usage
 
 First, you should create a Spoonware account : https://spoonware.lille.inria.fr/invitation.html
 
@@ -14,7 +14,9 @@ When you are successfully logged, you could create an application. You get an ID
 
 ## Start application and monitor
 
-You could start the example application with :
+This example application works under **Java version 1.8**
+
+You can start the example application with :
 $ mvn -P spoonware clean compile exec:java
 
 The application start and you collect bugs in your dashboard.
